@@ -82,7 +82,7 @@ footer:
 colors:
   text_link_colors: rgb(30, 106, 41)
   button_background_colors: "#A98C53"
-  header_background_color: "#2D2D37"
+  header_background_color: "#1E1E1E"
   navigation_link_color: "#BA0000"
   enable_black_menu_items: false
 upload_image: ''
