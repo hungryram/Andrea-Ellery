@@ -52,6 +52,20 @@ home_sections:
     featured_image: "/uploads/whiteinterior.jpg"
     right_link_to_property: "/orange-county"
   tile_background_color: ''
+- template: intro
+  intro_title: We're ready to help with your real estate needs.
+  intro_body: Buyer’s Agents are here to help you find the ideal home that’s perfect
+    for your lifestyle.
+  intro_align_text: has-text-centered
+  intro_background_color: "#14130D"
+  intro_enable_white_text_color: true
+  intro_add_button:
+    button_label: LEARN MORE ABOUT BUYING
+    intro_button_link: "/buying"
+    intro_button_text_color: "#4D4D4D"
+    intro_button_background_color: "#FFFFFF"
+    intro_open_in_a_new_tab: false
+  add_photo: ''
 - template: featured-blog
   blog_align_title_text: has-text-centered
   blog_title: Our Latest Posts
