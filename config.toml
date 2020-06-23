@@ -1,28 +1,36 @@
 baseURL = "https://andreaellery.netlify.app/"
 languageCode = "en-us"
 [[menu.main]]
+name = "Login"
+url = "http://www.idxhome.com/organizer/login/145641"
+weight = 6
+[[menu.main]]
+name = "Featured Listings"
+parent = "Properties"
+url = "http://www.idxhome.com/featured/145641"
+weight = 2
+[[menu.main]]
+name = "Search Homes"
+parent = "Properties"
+url = "https://www.idxhome.com/homesearch/145641"
+weight = 1
+[[menu.main]]
+name = "Properties"
+weight = 2
+[[menu.main]]
 name = "Testimonials"
 parent = "Resources"
 url = "/testimonials"
-weight = 3
+weight = 2
 [[menu.main]]
 name = "Our Team"
 parent = "Resources"
 url = "/teams"
-weight = 2
-[[menu.main]]
-name = "Our Partners"
-parent = "Resources"
-url = "/partners"
 weight = 1
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
-[[menu.main]]
-name = "Search Homes"
-url = "https://www.idxhome.com/homesearch/145641"
-weight = 2
 [[menu.main]]
 name = "Resources"
 weight = 3
