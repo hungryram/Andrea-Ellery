@@ -52,11 +52,6 @@ home_sections:
     featured_image: "/uploads/whiteinterior.jpg"
     right_link_to_property: "/orange-county"
   tile_background_color: ''
-- template: agent-slider
-  agent_text_align: has-text-centered
-  agent_title: Our Team
-  agent_subtitle: Our team of real estate professionals are ready to help you
-  agent_background: ''
 - template: featured-blog
   blog_align_title_text: has-text-centered
   blog_title: Our Latest Posts
