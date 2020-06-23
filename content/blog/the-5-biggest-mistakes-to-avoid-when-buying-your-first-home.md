@@ -2,7 +2,7 @@
 author = "teams/andrea-ellery.md"
 categories = ["Buying", "First Home"]
 date = 2019-02-11T08:00:00Z
-featured_image = "/uploads/40903982-11jpg.jpg"
+featured_image = "/uploads/kichen.jpg"
 tags = []
 title = "The 5 Biggest Mistakes to Avoid When Buying Your First Home"
 url = ""
