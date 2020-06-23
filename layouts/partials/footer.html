@@ -24,6 +24,10 @@
           <li><a href="{{ . }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
           {{end}}
 
+          {{ with $footerSocial.yelp }}
+          <li><a href="{{ . }}" target="_blank" title="Yelp"><i class="fab fa-yelp"></i></a></li>
+          {{end}}
+
           {{ with $footerSocial.linkedin }}
           <li><a href="{{ . }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
           {{end}}

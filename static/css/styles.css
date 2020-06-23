@@ -199,6 +199,10 @@ i.fab.fa-instagram {
     color: #cb2027!important;
 }
 
+i.fab.fa-yelp {
+    color: #F43939!important;
+}
+
 .fa-twitter {
     color: #00aced!important;
 }
@@ -364,6 +368,12 @@ li.active a {
 
 
 @media screen and (min-width:1087px) {
+
+    .head-nav li:last-child {
+        border: 1px solid #ccc;
+        padding: 5px 20px;
+    }
+
     .head-nav li {
         display: inline-block;
         padding: 0 10px;
@@ -1218,6 +1228,10 @@ ul.footer-social li {
 
 .contact-page-icons li {
     margin: 15px 0;
+}
+
+.contact-page-icons li a {
+    color: #4d4949;
 }
 
 .contact-page-icons li i {
