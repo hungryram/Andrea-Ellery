@@ -57,3 +57,5 @@ fields:
   config: {}
   template: url
   label: URL
+pages:
+- content/blog/the-5-biggest-mistakes-to-avoid-when-buying-your-first-home.md
