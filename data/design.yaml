@@ -12,8 +12,8 @@ main_image:
   hero_title: Real Estate Gateway - Andrea Ellery & Darrylle Ferrara
   align_hero_text: has-text-centered
   add_a_button:
-    hero_button_text: BROWSE OUR FEATURED HOMES
-    hero_button_link: "/listings"
+    hero_button_text: ''
+    hero_button_link: ''
     open_in_new_tab: false
     hero_button_text_color: "#FFFFFF"
     hero_button_bg_color: "#000000"
