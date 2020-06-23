@@ -8,7 +8,7 @@ email = "andrea@andrearealtor.house"
 fax = ""
 phone = ""
 [details]
-agent_photo = ""
+agent_photo = "/uploads/andrea.jpg"
 languages = []
 license_number = "01777357"
 license_type = "DRE License"
