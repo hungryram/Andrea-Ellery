@@ -2,7 +2,7 @@
 author = "teams/andrea-ellery.md"
 categories = ["Selling"]
 date = 2019-02-13T08:00:00Z
-featured_image = "/uploads/40904885-8jpg.jpg"
+featured_image = "/uploads/main.jpg"
 tags = []
 title = "The 4 Most Important Questions You Need to Ask Before Selling Your Home"
 url = ""
