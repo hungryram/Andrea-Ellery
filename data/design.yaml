@@ -84,6 +84,7 @@ footer:
   disable_background_color: true
   footer_background_image: "/uploads/shutterstock_43273009.jpg"
   enable_black_text: false
+  footer_logo: "/uploads/logo.JPG"
 colors:
   text_link_colors: rgb(30, 106, 41)
   button_background_colors: "#464646"
