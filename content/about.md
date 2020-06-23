@@ -1,6 +1,10 @@
 +++
 title = "About"
 url = ""
+[menu.main]
+name = "About Andrea and Darrylle"
+parent = "About"
+weight = 1
 [search_engine_optimization]
 meta_description = ""
 meta_title = ""
