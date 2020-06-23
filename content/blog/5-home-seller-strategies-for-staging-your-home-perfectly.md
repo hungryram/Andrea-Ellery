@@ -2,7 +2,7 @@
 author = "teams/andrea-ellery.md"
 categories = ["Selling"]
 date = 2019-02-16T08:00:00Z
-featured_image = "/uploads/40904885-19jpg.jpg"
+featured_image = "/uploads/shutterstock_549055441.jpg"
 tags = []
 title = "5 Home Seller Strategies for Staging Your Home Perfectly"
 url = ""
