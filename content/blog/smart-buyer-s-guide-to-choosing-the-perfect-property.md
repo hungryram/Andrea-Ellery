@@ -1,6 +1,6 @@
 +++
 author = "teams/andrea-ellery.md"
-categories = []
+categories = ["Buying"]
 date = 2019-02-14T08:00:00Z
 featured_image = "/uploads/40904885-30jpg.jpg"
 tags = []
