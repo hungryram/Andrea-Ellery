@@ -3,7 +3,7 @@ languageCode = "en-us"
 [[menu.main]]
 name = "Featured Listings"
 parent = "Properties"
-url = "http://www.idxhome.com/featured/145641"
+url = "https://www.idxhome.com/featured/145641"
 weight = 2
 [[menu.main]]
 name = "Testimonials"
