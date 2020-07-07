@@ -62,7 +62,7 @@ home_sections:
   intro_add_button:
     button_label: LEARN MORE ABOUT BUYING
     intro_button_link: "/blog/why-working-with-a-real-estate-professional-is-the-best-decision-you-ll-ever-make/"
-    intro_button_text_color: "#4D4D4D"
+    intro_button_text_color: "#FEFEFE"
     intro_button_background_color: "#1E6A29"
     intro_open_in_a_new_tab: false
   add_photo: ''
