@@ -1,25 +1,20 @@
 baseURL = "https://andreaellery.netlify.app/"
 languageCode = "en-us"
 [[menu.main]]
-name = "Featured Listings"
-parent = "Properties"
-url = "https://www.idxhome.com/featured/145641"
-weight = 2
-[[menu.main]]
 name = "Testimonials"
 parent = "About"
 url = "/testimonials"
 weight = 3
 [[menu.main]]
+name = "Featured Listings"
+parent = "Properties"
+url = "https://www.idxhome.com/featured/145641"
+weight = 2
+[[menu.main]]
 name = "Our Team"
 parent = "About"
 url = "/teams"
 weight = 2
-[[menu.main]]
-name = "Mortgage Calculator"
-parent = "Resources"
-url = "https://www.idxhome.com/mortcalc/145641"
-weight = 1
 [[menu.main]]
 name = "Search Homes"
 parent = "Properties"
@@ -27,25 +22,18 @@ url = "https://www.idxhome.com/homesearch/145641"
 weight = 1
 [[menu.main]]
 name = "About"
-weight = 4
+weight = 2
 [[menu.main]]
 name = "Login"
 url = "https://www.idxhome.com/organizer/login/145641"
-weight = 7
+weight = 5
 [[menu.main]]
 name = "Properties"
-weight = 2
+weight = 3
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
-[[menu.main]]
-name = "Resources"
-weight = 3
-[[menu.main]]
-name = "Blog"
-url = "/blog"
-weight = 5
 [taxonomies]
 category = "categories"
 status = "status"
