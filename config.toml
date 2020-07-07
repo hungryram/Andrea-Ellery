@@ -4,7 +4,7 @@ languageCode = "en-us"
 name = "Search Homes"
 parent = "Properties"
 url = "https://www.idxhome.com/homesearch/145641"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "Testimonials"
 parent = "About"
@@ -21,7 +21,7 @@ weight = 2
 [[menu.main]]
 name = "Login"
 url = "https://www.idxhome.com/organizer/login/145641"
-weight = 5
+weight = 3
 [[menu.main]]
 name = "Home"
 url = "/"
