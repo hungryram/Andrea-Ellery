@@ -289,7 +289,7 @@ li.page-item {
     border-color: #fff!important;
 }
 
-li.active a {
+.page-item.active a {
     background: #00aeff;
     color: #ffffff;
 }
