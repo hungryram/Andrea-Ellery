@@ -9,7 +9,7 @@ main_image:
   video_background: true
   upload_video: ''
   add_url_to_youtube_video: pY2CWYxUbrM
-  hero_title: Real Estate Gateway - Andrea Ellery & Darrylle Ferrara
+  hero_title: Andrea Ellery & Darrylle Ferrara
   align_hero_text: has-text-centered
   add_a_button:
     hero_button_text: GET IN TOUCH
@@ -40,8 +40,8 @@ home_sections:
   intro_enable_white_text_color: false
 - template: featured-tiles
   top_left_tile:
-    top_left_featured_title: Featured Listings
-    top_left_link_to_property: https://www.idxhome.com/featured/145641
+    top_left_featured_title: Meet the Team
+    top_left_link_to_property: "/teams"
     top_left_featured_image: "/uploads/fronthouse.jpg"
   bottom_left_tile:
     featured_title: Search Homes

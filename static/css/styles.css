@@ -260,6 +260,7 @@ a.button.hero-button {
     padding: 15px 30px!important;
     font-size: 1rem;
     border-radius: 0;
+    border: 0;
 }
 
 /* PAGINATION */
@@ -369,10 +370,6 @@ li.page-item {
 
 @media screen and (min-width:1087px) {
 
-    .head-nav li:last-child {
-        border: 1px solid #ccc;
-        padding: 5px 20px;
-    }
 
     .head-nav li {
         display: inline-block;

@@ -1,8 +1,11 @@
 baseURL = "https://andreaellery.netlify.app/"
 languageCode = "en-us"
 [[menu.main]]
+name = "Login"
+url = "https://www.idxhome.com/organizer/login/145641"
+weight = 5
+[[menu.main]]
 name = "Search Homes"
-parent = "Properties"
 url = "https://www.idxhome.com/homesearch/145641"
 weight = 4
 [[menu.main]]
@@ -18,10 +21,6 @@ weight = 2
 [[menu.main]]
 name = "About"
 weight = 2
-[[menu.main]]
-name = "Login"
-url = "https://www.idxhome.com/organizer/login/145641"
-weight = 3
 [[menu.main]]
 name = "Home"
 url = "/"
