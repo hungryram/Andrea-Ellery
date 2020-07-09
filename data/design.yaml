@@ -9,7 +9,7 @@ main_image:
   video_background: true
   upload_video: ''
   add_url_to_youtube_video: pY2CWYxUbrM
-  hero_title: "<p>Andrea Ellery &amp;<br>Darrylle Ferrara</p>"
+  hero_title: "Andrea Ellery &  \nDarrylle Ferrara"
   align_hero_text: has-text-centered
   add_a_button:
     hero_button_text: GET IN TOUCH
