@@ -445,6 +445,7 @@ li.page-item {
 /* ALL SCREEN SIZE MENU */
 header.navbar {
     padding: 10px 0;
+    z-index: 10000;
 }
 
 a.navbar-item img {

@@ -26,6 +26,8 @@ $(document).ready(function () {
 $('.home-slide').slick({
   infinite: true,
   autoplay: true,
+  speed: 1000,
+  autoplaySpeed: 5000,
 });
 
 

@@ -4,7 +4,7 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body" style="position: absolute; z-index:1000;">
         {{ with .Site.Data.design.main_image.align_hero_text }}
-          <div class="container {{ . }}">
+          <div class="container {{ . }} animate__animated animate__slideInDown">
             {{end}}
               <h1 class="hero-title title is-1">{{ .Site.Data.design.main_image.hero_title }}</h1>
               <h2 class="subtitle">{{ .Site.Data.design.main_image.hero_subtitle }}</h2>
