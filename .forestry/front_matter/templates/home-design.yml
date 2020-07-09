@@ -57,11 +57,14 @@ fields:
   config: {}
   fields:
   - name: hero_title
-    type: text
+    type: textarea
+    default: ''
     config:
       required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
     label: Hero Title
-    description: The main title overlaying the main image or video
   - name: hero_subtitle
     type: text
     config:
