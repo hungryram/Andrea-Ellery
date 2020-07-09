@@ -23,6 +23,12 @@ $(document).ready(function () {
       });
 });
 
+$('.home-slide').slick({
+  infinite: true,
+  autoplay: true,
+});
+
+
 // TESTIMONIAL SLIDER
 $('.responsive-testimonial-slide').slick({
   dots: true,

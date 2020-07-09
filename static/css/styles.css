@@ -247,6 +247,21 @@ p {
     line-height: 2;
 }
 
+/* SLIDESHOW */
+
+.home-slide.slick-initialized.slick-slider {
+    top: -100px;
+}
+
+div.hero-body {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
 /* HOME SECTIONS */
 
 .home-featured-sections .title {
@@ -474,7 +489,7 @@ section.hero__container {
 
 @media screen and (max-width: 768px){
     .hero-body h1.hero-title {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .hero-body h2.subtitle {
