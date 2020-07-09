@@ -22,12 +22,9 @@ main_image:
 home_sections:
 - template: intro
   intro_title: Andrea Ellery & Darrylle Ferrara
-  intro_body: Real Estate is our passion! We are energized by finding housing solutions
-    for our clients. As a member of a dynamic team, we work with both buyers and sellers.
-    The entrepreneurial aspect of residential real estate remains exciting to us.
-    We believe that satisfied clients are the cornerstone of our business and are
-    thankful for the opportunity to serve with compassion, empathy and high-energy
-    enthusiasm.
+  intro_body: |-
+    License #01777357 / 01794307
+    Real Estate is our passion! We are energized by finding housing solutions for our clients. As a member of a dynamic team, we work with both buyers and sellers. The entrepreneurial aspect of residential real estate remains exciting to us. We believe that satisfied clients are the cornerstone of our business and are thankful for the opportunity to serve with compassion, empathy and high-energy enthusiasm.
   add_photo: "/uploads/realestategateway.JPG"
   intro_align_text: has-text-left
   intro_background_color: "#FFFFFF"
