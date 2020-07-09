@@ -86,3 +86,8 @@ colors:
   navigation_link_color: "#BA0000"
   enable_black_menu_items: false
 upload_image: ''
+slideshow:
+  slideshow_home:
+  - "/uploads/shutterstock_43273009.jpg"
+  - "/uploads/shutterstock_549055441.jpg"
+  - "/uploads/shutterstock_683283169.jpg"
