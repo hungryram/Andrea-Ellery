@@ -1,4 +1,4 @@
-baseURL = "https://andreaellery.netlify.app/"
+baseURL = "https://www.realestategateway.house/"
 languageCode = "en-us"
 [[menu.main]]
 name = "Login"
