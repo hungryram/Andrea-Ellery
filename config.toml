@@ -1,14 +1,6 @@
 baseURL = "https://www.realestategateway.house/"
 languageCode = "en-us"
 [[menu.main]]
-name = "Login"
-url = "https://www.idxhome.com/organizer/login/145641"
-weight = 5
-[[menu.main]]
-name = "Search Homes"
-url = "https://www.idxhome.com/homesearch/145641"
-weight = 4
-[[menu.main]]
 name = "Testimonials"
 parent = "About"
 url = "/testimonials"
@@ -18,6 +10,14 @@ name = "Our Team"
 parent = "About"
 url = "/teams"
 weight = 2
+[[menu.main]]
+name = "Search Homes"
+url = "https://realestategateway.idxhome.com/homesearch/145641"
+weight = 3
+[[menu.main]]
+name = "Login"
+url = "https://realestategateway.idxhome.com/organizer/login/145641"
+weight = 4
 [[menu.main]]
 name = "About"
 weight = 2
