@@ -8,7 +8,7 @@
                 </div>
             {{ end }}
 
-            <div class="column content{{ if .add_photo }}{{ else }}is-half is-offset-one-quarter{{end}}">
+            <div class="column content {{ if .add_photo }}{{ else }}is-half is-offset-one-quarter{{end}}">
                 {{ if .intro_title }}
                     <h2 class="title is-2 {{ if .intro_enable_white_text_color }}has-text-white{{ end }}">{{ .intro_title }}</h2>
                 {{ else }}
