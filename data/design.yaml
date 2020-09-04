@@ -86,4 +86,5 @@ colors:
 upload_image: ''
 slideshow:
   slideshow_home:
+  - "/uploads/mainslide.jpg"
   - "/uploads/mainsplashpage.jpg"
