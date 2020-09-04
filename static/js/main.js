@@ -5,24 +5,6 @@ $(document).ready(function () {
         $('.nav').toggleClass('nav-open');
       });
 
-      // Toggle Sort by Price
-      $('.ascending').click(function(){
-        $('.ascend').addClass('hidden');
-        $('.descend').removeClass('hidden');
-      });
-
-      $('.descending').click(function(){
-        $('.descend').addClass('hidden');
-        $('.ascend').removeClass('hidden');
-      });
-
-      //BULMA FOR SORTING
-      $('.dropdown-trigger').click(function(e){
-        $('.sorttrigger').toggleClass('is-active');
-        e.stopPropagation();
-      });
-});
-
 $('.home-slide').slick({
   infinite: true,
   autoplay: true,

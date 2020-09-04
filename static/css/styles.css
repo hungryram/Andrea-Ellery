@@ -480,6 +480,7 @@ a.navbar-item img {
 
 section.hero__container {
     background-size: cover;
+    background-color: white;
 }
 
 .hero-content {
@@ -494,7 +495,7 @@ section.hero__container {
 }
 
 .hero-body h2 {
-    color: #cbcbcb;
+    color: #f2f2f2;
 }
 
 @media screen and (max-width: 768px){
@@ -576,6 +577,10 @@ div.page-banner {
 a.intro-btn {
     border-radius: 0;
     border: 0;
+}
+
+.about__container {
+    margin-bottom: 80px;
 }
 
 /* CAROUSEL */
