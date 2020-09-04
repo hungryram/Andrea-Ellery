@@ -6,8 +6,8 @@ name = "About Andrea and Darrylle"
 parent = "About"
 weight = 1
 [search_engine_optimization]
-meta_description = ""
-meta_title = ""
+meta_description = "Real Estate is our passion! We are energized by finding housing solutions for our clients. As a member of a dynamic team, we work with both buyers and sellers."
+meta_title = "About Andrea and Darrylle - Real Estate Gateway"
 
 +++
 # **About Andrea and Darrylle**
