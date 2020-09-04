@@ -86,6 +86,4 @@ colors:
 upload_image: ''
 slideshow:
   slideshow_home:
-  - "/uploads/newluxuryext.jpg"
-  - "/uploads/newluxurykitchen.jpg"
-  - "/uploads/newluxbackyard.jpg"
+  - "/uploads/mainsplashpage.jpg"
