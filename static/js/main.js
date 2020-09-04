@@ -4,6 +4,7 @@ $(document).ready(function () {
     $('.nav-menu').click(function(){
         $('.nav').toggleClass('nav-open');
       });
+});
 
 $('.home-slide').slick({
   infinite: true,
