@@ -211,10 +211,13 @@ i.fab.fa-yelp {
     color: #be0303;
 }
 
-p,
-li,
-a {
-    font-family: 'Lato', sans-serif;
+body p,
+body li,
+body a,
+.content p,
+.content li,
+.content a {
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
