@@ -1,5 +1,6 @@
 baseURL = "https://www.realestategateway.house/"
 languageCode = "en-us"
+summaryLength = 20
 [[menu.main]]
 name = "Testimonials"
 parent = "About"
