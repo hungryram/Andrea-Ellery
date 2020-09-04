@@ -44,7 +44,7 @@ home_sections:
   bottom_left_tile:
     featured_title: Search Homes
     featured_image: "/uploads/livingroom.jpg"
-    bottom_left_link_to_property: https://www.idxhome.com/homesearch/145641
+    bottom_left_link_to_property: https://realestategateway.idxhome.com/homesearch/145641
   right_tile:
     featured_title: Contact Us
     featured_image: "/uploads/whiteinterior.jpg"
