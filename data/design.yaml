@@ -13,10 +13,10 @@ main_image:
   align_hero_text: has-text-centered
   add_a_button:
     hero_button_text: GET IN TOUCH
-    hero_button_link: "/contact"
+    hero_button_link: https://realestategateway.idxhome.com/featured/145641
     open_in_new_tab: false
     hero_button_text_color: "#FFFFFF"
-    hero_button_bg_color: "#1E6A29"
+    hero_button_bg_color: "#1D1C1C"
   add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/ocean.mp4
   add_youtube_background_video: false
 home_sections:
