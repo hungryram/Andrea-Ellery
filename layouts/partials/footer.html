@@ -1,13 +1,13 @@
 <!-- Footer -->
 <div style="clear:both"></div>
-<footer class="footer site-footer" {{ if .Site.Data.design.footer.disable_background_color }} style="background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url({{ .Site.Data.design.footer.footer_background_image }}) no-repeat center;background-size: cover;background-attachment:fixed"{{ else }} style="{{ safeHTMLAttr (printf "background-color: %s" .Site.Data.design.footer.footer_background) }}"{{ end }}>
+<footer class="footer site-footer" {{ if .Site.Data.design.footer.disable_background_color }} style="background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url({{ .Site.Data.design.footer.footer_background_image | absURL }}) no-repeat center;background-size: cover;background-attachment:fixed"{{ else }} style="{{ safeHTMLAttr (printf "background-color: %s" .Site.Data.design.footer.footer_background) }}"{{ end }}>
 <div class="section">
   <div class="container">
     <div class="columns">
       <div class="column" {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>
         <a href="{{ .Site.BaseURL }}">
               {{ with .Site.Data.design.footer.footer_logo}}
-          <img src="{{ . }}" alt="{{ $.Site.Data.profile.primary_company_name }}" width="200">
+          <img src="{{ . | absURL }}" alt="{{ $.Site.Data.profile.primary_company_name }}" width="200">
               {{ else }}
           <h1 class="title is-4 footer-logo-text"  {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>{{ .Site.Data.profile.primary_company_name }}</h1>
               {{ end }}
@@ -123,7 +123,6 @@
   <small>&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.primary_company_name }}</small> &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a>
 </div>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
         <script src="{{.Site.BaseURL}}/js/main.js"></script>

@@ -4,9 +4,9 @@
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
                 {{ with .Site.Data.design.logo_or_title.upload_logo}}
-            <img src="{{ . }}" alt="{{ $.Site.Data.profile.primary_company_name }}">
+            <img src="{{ . | absURL }}" alt="{{ $.Site.Data.profile.primary_company_name }}">
                 {{ else }}
-            <h1>{{ .Site.Data.design.logo_or_title.title }}</h1>
+            <h1 class="title is-3">{{ .Site.Data.design.logo_or_title.title }}</h1>
                 {{ end }}
           </a>
           <span class="navbar-burger burger" data-target="navbarMenuHeroC">
