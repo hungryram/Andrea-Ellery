@@ -1,13 +1,12 @@
 ---
 slideshow:
-- heading: Super Versatile for Custom Features
+- heading: Real Estate Gateway
   subtitle: 
   link_label: Contact
   link: "/contact"
-  body: Need features specific for your business? Get in touch and we'll be happy
-    to help
+  body: Let Us Be Your Guide
   enable_white_text: false
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1628902200/templates/realestate2/bathroom-bg3_onhi8u.jpg
+  image: ''
 home_sections:
 - template: text-and-image
   heading: Discover Our Finest Homes
