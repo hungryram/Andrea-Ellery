@@ -1,5 +1,8 @@
 +++
+meta_description = "We're energized by the challenge of helping people find their perfect home - one that is just right for them...and at a price they can afford. We work hard with buyers as well as sellers so no matter who you are or how much time it takes."
+no_index = false
 title = "About"
+title_tag = "About Real Estate Gateway"
 url = ""
 [menu.main]
 name = "About Andrea and Darrylle"
