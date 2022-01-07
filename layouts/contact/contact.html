@@ -1,121 +1,38 @@
 {{ define "main" }}
+{{ $footerContact := .Site.Data.profile.contact_information }}
+{{ $footerSocial := .Site.Data.profile.social_media }}
+{{ $accent := $.Site.Data.appearance.colors.accent }}
 
-<div class="section agent-lists">
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          {{ partial "breadcrumbs.html" . }}
-        </div>
-      </div>
-        <div class="columns">
-            <div class="column is-8">
-                <div class="box">
-                  <h2 class="title is-4">{{ .Title }}</h2>
-                  <div class="contact-content content">
-                    {{ .Params.contact_content }}
-                  </div>
-                  <form id="ihf-contact-request-form" data-ihf-event="contact-form-submit" action="https://{{ .Site.Data.idx.subdomain }}.idxhome.com/contact/{{ .Site.Data.idx.idx_id }}" method="POST" data-ihf-event-bound="true">
-                    <div class="field is-horizontal">
-                      <div class="field-body">
-                        <div class="field">
-                          <p class="control is-expanded">
-                            <input class="input" type="text" placeholder="Name" name="contactName" required>
-                          </p>
-                        </div>
-                        <div class="field">
-                          <p class="control">
-                            <input class="input" type="text" placeholder="Email" name="email" required>
-                          </p>
-                        </div>
-                        <div class="field">
-                          <p class="control">
-                            <input class="input" type="text" placeholder="Phone" name="phone" required>
-                          </p>
-                        </div>
-                      </div>
+<div class="uk-section">
+    <div class="uk-container uk-container-large">
+        <div uk-grid>
+            <div class="uk-width-3-5@s">
+                <div class="uk-card uk-card-default uk-card-body">
+                    <div class="uk-margin-medium-bottom">
+                        <h2 class="uk-h3 uk-text-bold">Send a message</h2>
+                        <p>Please fill out the form below and our team will get back to you shortly!</p>
                     </div>
-
-                    <div class="field">
-                      <div class="control">
-                          <textarea id="message" placeholder="Message" name="message" class="textarea" style="height: 140px;" rows="3"> </textarea>
-                      </div>
-                    </div>
-                    <div class="field-body">
-                      <div class="field">
-                        <div class="control">
-                          <div class="g-recaptcha" data-sitekey="6LeGYU4UAAAAAPvNZspOUi2Q2R9exszBJdQurmoc"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="control">
-                      <button class="button" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}">Submit</button>
-                    </div>
-                    <div class="field mt-5">
-                      <div class="control content">
-                        <label class="checkbox">
-                          <input type="checkbox" required name="consent">
-                          <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
-                        </label>
-                      </div>
-                    </div>
-                  </form>
+                    {{ partial "templates/form" . }}
                 </div>
             </div>
-            
-            <div class="column">
-              <div class="box">
-                  <h2 class="subtitle is-6">Contact Information<h2>
-                    {{ $contactSocial := .Site.Data.profile.social_accounts }}
-                    {{ $locationContact := .Site.Data.profile.location_information }}
-                    {{ $contactPage := .Site.Data.profile.primary_contact }}
-                                <ul class="contact-page-icons">
-                                  {{ if gt ( len $locationContact.address ) 0 }}{{ if $locationContact }}<li><i class="fas fa-map-marker-alt"></i>{{ $locationContact.address }} {{ $locationContact.city }} {{ $locationContact.state }} {{ $locationContact.zip_code }}</li> {{ end }}{{ end }}
-                                  {{ if $contactPage.email }}<li><i class="far fa-envelope"></i><a href="mailto:{{ $contactPage.email }}">{{ $contactPage.email }}</a></li> {{ end }}
-                                  {{ if $contactPage }}<li><i class="fas fa-mobile-alt"></i> <a href="tel:{{ $contactPage.mobile_phone }}">{{ $contactPage.mobile_phone }}</a></li> {{ end }}
-                                  {{ if $contactPage.phone }}<li><i class="fas fa-phone-alt"></i> <a href="tel:{{ $contactPage.phone }}">{{ $contactPage.phone }}</a></li> {{ end }}
-                              </ul>
-                              <ul class="contact-page-social">
-                                {{ if $contactSocial.facebook }}<li><a href="{{ $contactSocial.facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
-                                {{ if $contactSocial.instagram }}<li><a href="{{ $contactSocial.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>{{ end }}
-                                {{ if $contactSocial.yelp }}<li><a href="{{ $contactSocial.yelp }}" target="_blank" title="Yelp"><i class="fab fa-yelp"></i></a></li>{{ end }}
-                                {{ if $contactSocial.linkedin }}<li><a href="{{ $contactSocial.linkedin }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>{{ end }}
-                                {{ if $contactSocial.pinterest }}<li><a href="{{ $contactSocial.pinterest }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>{{ end }}
-                              </ul>
-              </div>
-          
-              <div class="box">
-                <h2 class="subtitle is-6">Blog Categories</h2>
-                  <ul>
-                      {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                    <li>
-                      <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/categories{{ $name | urlize | relURL }}" class="secondary-btn">{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
-                    </li>
-                    {{end}}
-          
-                  </ul>
-              </div>
-              <div class="box">
-                  <h2 class="subtitle is-6">Latest Posts<h2>
-          
-                  {{ range  first 4 ( where $.Site.RegularPages "Type" "blog") }}
-                  <article class="media">
-                      {{ if .Params.featured_image }}
-                      <div class="media-left">
-                        <figure class="image is-96x96">
-                          <img src="{{ .Params.featured_image }}" alt="Image">
-                        </figure>
-                      </div>
-                      {{end}}
-                      <div class="media-content">
-                        <div class="content">
-                            <h1 class="title is-6">{{ .Params.title }}</h1>
-                            <a href="{{ .Permalink }}" class="secondary-btn">Continue Reading</a>
-                      </div>
-                  </article>
-                  {{end}}
-              </div>
-          </div>
-
+            <div class="uk-width-expand@s">
+                <div class="uk-card uk-card-body">
+                    <h2 class="uk-h3 uk-text-bold">Contact Information</h2>
+                    <ul class="uk-list">
+                        {{ if $footerContact.phone }}<li><a href="tel:{{ $footerContact.phone }}"><span class="uk-margin-small-right" uk-icon="receiver"></span>{{ $footerContact.phone }}</a></li>{{ end }}
+                        {{ if $footerContact.cell }}<li><a href="tel:{{ $footerContact.cell }}"><span class="uk-margin-small-right" uk-icon="phone"></span>{{ $footerContact.cell }}</a></li>{{ end }}
+                        {{ if $footerContact.email }}<li><a href="tel:{{ $footerContact.email }}"><span class="uk-margin-small-right" uk-icon="mail"></span>{{ $footerContact.email }}</a></li>{{ end }}
+                        {{ if $footerContact.address }}<li><span class="uk-margin-small-right" uk-icon="location"></span><a href="{{ if $footerContact.google_page_link }}{{ $footerContact.google_page_link }}{{ else }}https://www.google.com/maps/place/{{ $footerContact.address }},+{{ $footerContact.city }},+{{ $footerContact.state }}{{ end }}">{{ $footerContact.address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</a></li>{{ end }}                    </ul>
+                    {{ if $footerSocial.facebook }}<a href="{{ $footerSocial.facebook }}" class="uk-icon-button uk-margin-small-right" uk-icon="icon: facebook; ratio: .8" style="color: {{ $accent }}"></a>{{ end }}
+                    {{ if $footerSocial.instagram }}<a href="{{ $footerSocial.instagram }}" class="uk-icon-button uk-margin-small-right" uk-icon="icon: instagram; ratio: .8" style="color: {{ $accent }}"></a>{{ end }}
+                    {{ if $footerSocial.linkedin }}<a href="{{ $footerSocial.linkedin }}" class="uk-icon-button uk-margin-small-right" uk-icon="icon: linkedin; ratio: .8" style="color: {{ $accent }}"></a>{{ end }}
+                    {{ if $footerSocial.pinterest }}<a href="{{ $footerSocial.pinterest }}" class="uk-icon-button uk-margin-small-right" uk-icon="icon: pinterest; ratio: .8" style="color: {{ $accent }}"></a>{{ end }}
+                    {{ if $footerSocial.twitter }}<a href="{{ $footerSocial.twitter }}" class="uk-icon-button uk-margin-small-right" uk-icon="icon: twitter; ratio: .8" style="color: {{ $accent }}"></a>{{ end }}
+                    {{ if $footerSocial.youtube }}<a href="{{ $footerSocial.youtube }}" class="uk-icon-button uk-margin-small-right" uk-icon="icon: youtube; ratio: .8" style="color: {{ $accent }}"></a>{{ end }}
+                    {{ if $footerSocial.tiktok }}<a href="{{ $footerSocial.tiktok }}" class="uk-icon-button uk-margin-small-right" uk-icon="icon: tiktok; ratio: .8" style="color: {{ $accent }}"></a>{{ end }}
+                    {{ if $footerSocial.yelp }}<a href="{{ $footerSocial.yelp }}" class="uk-icon-button uk-margin-small-right" uk-icon="icon: yelp; ratio: .8" style="color: {{ $accent }}"></a>{{ end }}
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -2,11 +2,11 @@
 label: SEO
 hide_body: true
 fields:
-- name: meta_title
+- name: title_tag
   type: text
   config:
     required: false
-  label: Meta Title
+  label: Title Tag
 - name: meta_description
   type: textarea
   default: ''
@@ -16,3 +16,8 @@ fields:
     schema:
       format: markdown
   label: Meta Description
+- name: no_index
+  type: boolean
+  label: No Index
+  description: 'WARNING: Enabling this will prevent your page from being indexed by
+    search engines.'

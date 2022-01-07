@@ -7,15 +7,15 @@ fields:
   config:
     required: true
   label: Office Name
-- name: url
-  type: include
-  config: {}
-  template: url
-  label: URL
 - name: contact
   type: field_group
   config: {}
   fields:
+  - name: license_number
+    type: text
+    config:
+      required: false
+    label: License Number
   - name: office_phone
     type: text
     config:
@@ -47,56 +47,56 @@ fields:
     config:
       required: false
       options:
-      - Alabama
-      - Alaska
-      - Arizona
-      - Arkansas
-      - California
-      - Colorado
-      - Connecticut
-      - Delaware
-      - Florida
-      - Georgia
-      - Hawaii
-      - Idaho
-      - Illinois
-      - Indiana
-      - Iowa
-      - Kansas
-      - Kentucky
-      - Louisiana
-      - Maine
-      - Maryland
-      - Massachusetts
-      - Michigan
-      - Minnesota
-      - Mississippi
-      - Missouri
-      - Montana
-      - Nebraska
-      - Nevada
-      - New Hampshire
-      - New Jersey
-      - New Mexico
-      - New York
-      - North Carolina
-      - North Dakota
-      - Ohio
-      - Oklahoma
-      - Oregon
-      - Pennsylvania
-      - Rhode Island
-      - South Carolina
-      - South Dakota
-      - Tennessee
-      - Texas
-      - Utah
-      - Vermont
-      - Virginia
-      - Washington
-      - West Virginia
-      - Wisconsin
-      - Wyoming
+      - AL
+      - AK
+      - AZ
+      - AR
+      - CA
+      - CO
+      - CT
+      - DE
+      - FL
+      - GA
+      - HI
+      - ID
+      - IL
+      - IN
+      - IA
+      - KS
+      - KY
+      - LA
+      - ME
+      - MD
+      - MA
+      - MI
+      - MN
+      - MS
+      - MO
+      - MT
+      - NE
+      - NV
+      - NH
+      - NJ
+      - NM
+      - NY
+      - NC
+      - ND
+      - OH
+      - OK
+      - OR
+      - PA
+      - RI
+      - SC
+      - SD
+      - TN
+      - TX
+      - UT
+      - VT
+      - VA
+      - WA
+      - WV
+      - WI
+      - WY
       source:
         type: simple
         section: 
@@ -113,17 +113,67 @@ fields:
       max: 99999
       step: 
     label: Zip Code
+  - name: website
+    type: text
+    config:
+      required: false
+    label: Website
   label: Contact
 - name: photos
   type: field_group
   config: {}
   fields:
-  - name: main_photo
+  - name: photo
     type: file
     config:
-      maxSize: 5
-    label: Main Photo
+      maxSize: 2
+    label: Photo
   label: Photo
+- name: social_media
+  type: field_group
+  config: {}
+  fields:
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  - name: pinterest
+    type: text
+    config:
+      required: false
+    label: Pinterest
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: youtube
+    type: text
+    config:
+      required: false
+    label: Youtube
+  - name: tiktok
+    type: text
+    config:
+      required: false
+    label: TikTok
+  - name: yelp
+    type: text
+    config:
+      required: false
+    label: Yelp
+  label: Social Media
 - name: search_engine_optimization
   type: field_group
   config: {}
@@ -134,3 +184,10 @@ fields:
     template: seo
     label: SEO
   label: Search Engine Optimization
+- name: url
+  type: include
+  config: {}
+  template: url
+  label: URL
+pages:
+- content/offices/luxury-office.md

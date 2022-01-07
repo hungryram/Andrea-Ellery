@@ -12,6 +12,11 @@ fields:
   config:
     maxSize: 5
   label: Featured Image
+- name: image_alt_tag
+  type: text
+  config:
+    required: false
+  label: Image Alt Tag
 - name: author
   type: select
   default: []
@@ -20,7 +25,7 @@ fields:
     options: []
     source:
       type: pages
-      section: teams
+      section: my-team
       file: 
       path: 
   label: Author
@@ -57,9 +62,8 @@ fields:
   config: {}
   template: url
   label: URL
-pages:
-- content/blog/5-home-seller-strategies-for-staging-your-home-perfectly.md
-- content/blog/smart-buyer-s-guide-to-choosing-the-perfect-property.md
-- content/blog/the-4-most-important-questions-you-need-to-ask-before-selling-your-home.md
-- content/blog/the-5-biggest-mistakes-to-avoid-when-buying-your-first-home.md
-- content/blog/why-working-with-a-real-estate-professional-is-the-best-decision-you-ll-ever-make.md
+- name: is_post
+  type: boolean
+  label: is post
+  hidden: true
+  default: true
