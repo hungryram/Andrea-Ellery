@@ -1,31 +1,26 @@
 baseURL = "https://january2022--realestategateway.netlify.app/"
 languageCode = "en-us"
 summaryLength = 20
+[[menu.footer]]
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
 name = "Testimonials"
 parent = "About"
 url = "/testimonials"
 weight = 3
 [[menu.main]]
-name = "Our Team"
-parent = "About"
-url = "/teams"
+name = "Home"
+url = "/"
 weight = 2
+[[menu.main]]
+name = "About"
+weight = 4
 [[menu.main]]
 name = "Search Homes"
 url = "https://realestategateway.idxhome.com/homesearch/145641"
-weight = 3
-[[menu.main]]
-name = "Login"
-url = "https://realestategateway.idxhome.com/organizer/login/145641"
 weight = 5
-[[menu.main]]
-name = "About"
-weight = 2
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
 [taxonomies]
 category = "categories"
 status = "status"
