@@ -4,7 +4,7 @@ footer:
     pages: search.md
     quick_links: []
   footer_background_color: "#232733"
-  background_image: https://res.cloudinary.com/hungryram19/image/upload/v1605403006/templates/realestate2/clean-living-room_b3bubn.jpg
+  background_image: https://res.cloudinary.com/hungryram19/image/upload/v1641573278/andrea-ellery/realestategateway/neighborhood_h986ns.jpg
   logo: ''
   footer_bio: Real Estate is our passion! We are energized by finding housing solutions
     for our clients. As a member of a dynamic team, we work with both buyers and sellers.
@@ -30,7 +30,7 @@ header:
   enable_white_text_top: true
   transparent_background: false
 pages:
-  image: ''
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1641573296/andrea-ellery/realestategateway/homes-with-green-tree_nznd19.jpg
 sidebar:
   sidebar:
   - template: side-blog-category
