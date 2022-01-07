@@ -1,12 +1,5 @@
 ---
 slideshow:
-- heading: Highly Customizable Real Estate Theme
-  subtitle: 
-  link_label: Read More
-  link: https://www.hungryram.com
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1630458883/templates/realestate2/shutterstock_12168997453_dgp9fa.jpg
-  body: Optionally integrate with IDX or use built in tools
-  enable_white_text: false
 - heading: Super Versatile for Custom Features
   subtitle: 
   link_label: Contact
@@ -26,9 +19,6 @@ home_sections:
   image: https://res.cloudinary.com/hungryram19/image/upload/v1605402573/templates/realestate2/agent-4_ovchvb.jpg
   image_alt_tag: John
   image_width: 400
-- template: active-listings
-  heading: Active Listings
-  body: View active listings in the office
 - template: featured-boxes
   heading: The Featured Box
   body: Add in Featured Boxes and link them wherever you need to
