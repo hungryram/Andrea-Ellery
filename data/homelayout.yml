@@ -9,14 +9,17 @@ slideshow:
   image: ''
 home_sections:
 - template: text-and-image
-  heading: Discover Our Finest Homes
-  body: Each section of the home page can be arranged and customized through your
-    phone or computer. Easily manage your website through our website editor customized
-    specifically for real estate professionals.
+  heading: Specializing in Residential Real Estate in Sacramento and San Joaquin County.
+  body: Real Estate is our passion! We are energized by finding housing solutions
+    for our clients. As a member of a dynamic team, we work with both buyers and sellers.
+    The entrepreneurial aspect of residential real estate remains exciting to us.
+    We believe that satisfied clients are the cornerstone of our business and are
+    thankful for the opportunity to serve with compassion, empathy and high-energy
+    enthusiasm.
   button: Read more
   button_link: "/our-team"
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1605402573/templates/realestate2/agent-4_ovchvb.jpg
-  image_alt_tag: John
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1641545804/andrea-ellery/realestategateway/realestategateway_w2htrz.jpg
+  image_alt_tag: Real Estate Gateway
   image_width: 400
 - template: featured-boxes
   heading: The Featured Box
