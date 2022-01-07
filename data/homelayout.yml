@@ -22,18 +22,18 @@ home_sections:
   image_alt_tag: Real Estate Gateway
   image_width: 400
 - template: featured-boxes
-  heading: The Featured Box
-  body: Add in Featured Boxes and link them wherever you need to
+  heading: ''
+  body: ''
   featured:
-  - heading: View Active Listings
-    image: https://res.cloudinary.com/hungryram19/image/upload/v1605402110/templates/realestate2/40904885-28JPG_kqkuit.jpg
-    link: "/status/active"
   - heading: Featured Listings
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1641572833/andrea-ellery/realestategateway/nice-tan-homes_qfgp83.jpg
+    link: https://realestategateway.idxhome.com/featured/145641
+  - heading: Search Homes
     image: https://res.cloudinary.com/hungryram19/image/upload/v1605402939/templates/realestate2/livingroom_az8tp4.jpg
-    link: "/featured/featured"
-  - heading: Our Team
-    image: https://res.cloudinary.com/hungryram19/image/upload/v1605402038/templates/realestate2/40904885-26JPG_qipfli.jpg
-    link: "/our-team"
+    link: https://realestategateway.idxhome.com/homesearch/145641
+  - heading: Contact Us
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1641572952/andrea-ellery/realestategateway/fronthouse_a80lui.jpg
+    link: "/contact"
 - template: home-agent
   heading: Our Team
   body: Helpful agents that will guide you in the real estate market
