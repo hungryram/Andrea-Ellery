@@ -1,4 +1,4 @@
-baseURL = "https://www.realestategateway.house/"
+baseURL = "https://january2022--realestategateway.netlify.app/"
 languageCode = "en-us"
 summaryLength = 20
 [[menu.main]]
