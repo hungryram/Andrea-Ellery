@@ -1,27 +1,32 @@
 ---
 company_name: Real Estate Gateway
 social_media:
-  instagram: er
-  twitter: er
-  facebook: er
-  pinterest: ''
-  yelp: ''
-  linkedin: ''
+  instagram: https://www.instagram.com/real.estate.gateway/
+  twitter: ''
+  facebook: https://www.facebook.com/RealEstateGateway1/
+  pinterest: https://www.pinterest.com/ElleryRealtor/pins/
+  yelp: https://www.yelp.com//biz/andrea-ellery-and-darrylle-ferrara-real-estate-gateway-sacramento
+  linkedin: https://www.linkedin.com/in/andreaellery
   tiktok: ''
+  youtube: ''
 contact_information:
-  phone: '(209) 817-1103'
-  name: 
-  cell: 
-  address: 419 Street Address
-  email: john@realestatecompany.com
-  license: 'DRE License 01995762'
-  city: Yorba Linda
-  state: California
-  zip_code: "92882"
+  phone: "(209) 817-1103"
+  name: ''
+  cell: ''
+  address: ''
+  email: andrea@andrearealtor.house
+  license: DRE License 01995762
+  city: ''
+  state: ''
+  zip_code: ''
+  google_page_link: ''
 search_engine_optimization:
-  title_tag: Real Estate Theme
-  meta_description: The only real estate theme you need
+  title_tag: Real Estate Gateway
+  meta_description: Real Estate Gateway works with both buyers and sellers. Satisfied
+    clients are the cornerstone of our business and we are energized by finding housing
+    solutions for our clients.
   twitter_card:
     twitter_username: ''
   facebook:
     app_id: ''
+  no_index: false
