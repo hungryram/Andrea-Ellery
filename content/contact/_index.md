@@ -1,8 +1,11 @@
 +++
-contact_content = "We look forward to connecting with you."
-title = "Contact Me"
+body = ""
+title = "Contact"
 [menu.main]
-name = "Contact"
-weight = 4
+weight = 5
+[search_engine_optimization]
+meta_description = ""
+no_index = false
+title_tag = ""
 
 +++
