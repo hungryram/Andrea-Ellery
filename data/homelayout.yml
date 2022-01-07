@@ -6,7 +6,7 @@ slideshow:
   link: "/contact"
   body: Let Us Be Your Guide
   enable_white_text: false
-  image: ''
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1641545410/andrea-ellery/realestategateway/modern-gray-interior_vlipya.jpg
 home_sections:
 - template: text-and-image
   heading: Specializing in Residential Real Estate in Sacramento and San Joaquin County.
